@@ -6,6 +6,8 @@
 
 Eventspo was created as a personal challenge to myself to learn new technologies I have not interacted with before and implement them into a usable Full-Stack Implementable Web App Setup.  A broilerplate for myself if you will, for developing a web app for a new company in a short amount of time! 
 
+---
+
 ## Features
 
 Eventspo is built entirely with React, styled with CSS in JS/Styled Components only, utilizing Firebase to handle User Authentication and Database functionality.
@@ -45,6 +47,7 @@ Eventspo is built entirely with React, styled with CSS in JS/Styled Components o
 - [ ] Introduce a Calendaring/Event Creation system
 - [ ] Message board or Chat functionality 
 
+---
 
 ## Give it a try:
 
@@ -60,9 +63,16 @@ Eventspo is built entirely with React, styled with CSS in JS/Styled Components o
 - copy and paste your Credentials from your Firebase App into *src/components/Firebase/firebase.js* file or in .env file
 - activate Email/Password, Google, Facebook and Twitter Sign-In Methods for your Firebase App
 
+---
+
 ## ScreenShots
 
 ![Landing](public/screenshots/about1.png)
 ![Parallax in Action](public/screenshots/about3.png)
 ![Pop Render and Privacy Policy](public/screenshots/about2.png)
 ![Sign In Page](public/screenshots/signin.png)
+
+---
+
+## Author
+* Joshua Jimenez, [jsjimenez51](https://github.com/jsjimenez51) | [@bigjoshcodes](https://twitter.com/bigjoshcodes)
