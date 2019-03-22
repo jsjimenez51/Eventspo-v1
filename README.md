@@ -24,7 +24,7 @@ Eventspo is built entirely with React, styled with CSS in JS/Styled Components o
 - [x] Sign In
 - [x] Sign Up
 - [x] Sign Out
-- [x] Password Management (Replace existing, Forgotten Password Hangling)
+- [x] Password Management (Replace existing, Forgotten Password Handling)
 - [x] User Verification via Email
 - [x] Route Protection via Authorization
 - [x] Roles Assigned to Users or Admin via Authorization
