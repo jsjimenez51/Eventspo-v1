@@ -5,4 +5,5 @@ export default styled.div`
     background-color: #231F20;
     display: flex;
     align-items: center;
+    overflow: wrap;
 `;

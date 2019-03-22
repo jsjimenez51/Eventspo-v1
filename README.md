@@ -1,68 +1,68 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Eventspo!
 
-## Available Scripts
+> Running Live at https://eventspo.firebaseapp.com
 
-In the project directory, you can run:
+## What is it?
 
-### `npm start`
+Eventspo was created as a personal challenge to myself to learn new technologies I have not interacted with before and implement them into a usable Full-Stack Implementable Web App Setup.  A broilerplate for myself if you will, for developing a web app for a new company in a short amount of time! 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Eventspo is built entirely with React, styled with CSS in JS/Styled Components only, utilizing Firebase to handle User Authentication and Database functionality.
 
-### `npm test`
+###Built with:
+- [x] Boostrapped with Create React App to build Webpack
+- [x] React 16.8.4
+- [x] Firebase 5.9
+- [x] React-Router 4.4
+- [x] React-Parralax 2.2
+- [x] Styled-Components 4.1.3
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+###Implemented Functional Features:
+- [x] Sign In
+- [x] Sign Up
+- [x] Sign Out
+- [x] Password Management (Replace existing, Forgotten Password Hangling)
+- [x] User Verification via Email
+- [x] Route Protection via Authorization
+- [x] Roles Assigned to Users or Admin via Authorization
+- [x] OAuth Logins via Google, Facebook, and Twitter
+- [x] An Account Dashboard where Users can Link their Social Accounts
+- [x] Authorization Persistence via Local Storage
+- [x] Database with Known Users
+- [x] Privacy Policy Implementation
 
-### `npm run build`
+###Styling Features:
+- [x] All styling achieved with Styled Components
+- [x] Parallax effect for About Page scrolling info
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+###Roadmap for Development:
+- [ ] Insert Content to empty Components
+- [ ] Create many to many relationships between Vendors, Venues, and Users
+- [ ] Expand Roles to Client, Provider, and Planner
+- [ ] Implement Floating Card System for Vendors, Venues, Events, etc.
+- [ ] Be able to save lists of Providers and export them
+- [ ] Introduce a Calendaring/Event Creation system
+- [ ] Message board or Chat functionality 
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Give it a try:
 
-### `npm run eject`
+- Clone or download this repository:
+  - `git clone https://github.com/jsjimenez51/Eventspo-v1.git`
+- run `npm install` to install dependencies
+- run `npm start` to open on browser with localhost
+- if browser does not open visit: http://localhost:3000/ to see local rendering
+- MUST USE your own Firebase Credentials!!!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### How to get your own Firebase Credentials:
+- visit https://firebase.google.com and create a Firebase App
+- copy and paste your Credentials from your Firebase App into *src/components/Firebase/firebase.js* file or in .env file
+- activate Email/Password, Google, Facebook and Twitter Sign-In Methods for your Firebase App
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ScreenShots
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![Landing](public/screenshots/about1.png)
+![Parallax in Action](public/screenshots/about3.png)
+![Pop Render and Privacy Policy](public/screenshots/about2.png)
+![Sign In Page](public/screenshots/signin.png)

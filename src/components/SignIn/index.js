@@ -8,6 +8,7 @@ import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
 import H1Styled from '../Styled/h1Style';
 import Ldiv from '../Styled/layoutPage';
+import Button from '../Styled/button';
 
 const SignInPage = () => (
   <Ldiv>
@@ -85,9 +86,9 @@ class SignInFormBase extends Component {
           type="password"
           placeholder="Password"
         />
-        <button disabled={isInvalid} type="submit">
+        <Button disabled={isInvalid} type="submit">
           Sign In
-        </button>
+        </Button>
 
         {error && <p>{error.message}</p>}
       </form>
@@ -138,7 +139,7 @@ class SignInGoogleBase extends Component {
 
     return (
       <form onSubmit={this.onSubmit}>
-        <button type="submit">Sign In with Google</button>
+        <Button type="submit">Sign In with Google</Button>
 
         {error && <p>{error.message}</p>}
       </form>
@@ -189,7 +190,7 @@ class SignInFacebookBase extends Component {
 
     return (
       <form onSubmit={this.onSubmit}>
-        <button type="submit">Sign In with Facebook</button>
+        <Button type="submit">Sign In with Facebook</Button>
 
         {error && <p>{error.message}</p>}
       </form>
@@ -237,7 +238,7 @@ class SignInTwitterBase extends Component {
 
     return (
       <form onSubmit={this.onSubmit}>
-        <button type="submit">Sign In with Twitter</button>
+        <Button type="submit">Sign In with Twitter</Button>
 
         {error && <p>{error.message}</p>}
       </form>

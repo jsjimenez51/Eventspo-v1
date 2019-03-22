@@ -9,6 +9,9 @@ import {
 import { withFirebase } from '../Firebase';
 import { PasswordForgetForm } from '../PasswordForget';
 import PasswordChangeForm from '../PasswordChange';
+import H3Style from '../Styled/h3Style';
+import H2Style from '../Styled/h2Style';
+import Button from '../Styled/button';
 
 
 const SIGN_IN_METHODS = [
@@ -34,7 +37,7 @@ const AccountPage = () => (
     <AuthUserContext.Consumer>
         {authUser => (
             <div>
-                <h1>Account: {authUser.email}</h1>
+                <H2Style>Account: {authUser.email}</H2Style>
                 <PasswordForgetForm />
                 <PasswordChangeForm />
                 <LoginManagement authUser={authUser} />
@@ -97,7 +100,7 @@ class LoginManagementBase extends Component {
 
         return (
             <div>
-                Sign In Methods:
+                <H3Style>Sign In Methods:</H3Style>
                 <ul>
                     {SIGN_IN_METHODS.map(signInMethod => {
                         const onlyOneLeft = activeSignInMethods.length === 1;
@@ -142,20 +145,20 @@ const SocialLoginToggle = ({
     onUnlink,
 }) =>
     isEnabled ? (
-        <button
+        <Button
             type="button"
             onClick={() => onUnlink(signInMethod.id)}
             disabled={onlyOneLeft}
         >
             Deactivate {signInMethod.id}
-        </button>
+        </Button>
     ) : (
-        <button
+        <Button
             type="button"
             onClick={() => onLink(signInMethod.provider)}
         >
             Link {signInMethod.id}
-        </button>
+        </Button>
     );
 
 class DefaultLoginToggle extends Component {
@@ -190,13 +193,13 @@ class DefaultLoginToggle extends Component {
             passwordOne !== passwordTwo || passwordOne === '';
 
         return isEnabled ? (
-            <button
+            <Button
                 type="button"
                 onClick={() => onUnlink(signInMethod.id)}
                 disabled={onlyOneLeft}
             >
                 Deactivate {signInMethod.id}
-            </button>
+            </Button>
         ) : (
             <form onSubmit={this.onSubmit}>
                 <input
@@ -214,9 +217,9 @@ class DefaultLoginToggle extends Component {
                     placeholder="Confirm New Password"
                 />
 
-                <button disabled={isInvalid} type="submit">
+                <Button disabled={isInvalid} type="submit">
                     Link {signInMethod.id}
-                </button>
+                </Button>
             </form>
         );
     }

@@ -29,7 +29,7 @@ const NavigationAuth = ({ authUser }) => (
         <NavLogo src={palmLogo} alt='Eventspo logo'/>
         <NavUL>
             <NavLI>
-                <NavLink to={ROUTES.ABOUT}>Landing</NavLink>
+                <NavLink to={ROUTES.ABOUT}>About</NavLink>
             </NavLI>
             <NavLI>
                 <NavLink to={ROUTES.HOME}>Home</NavLink>
@@ -63,7 +63,7 @@ const NavigationNonAuth = () => (
         <NavLogo src={palmLogo} alt='Eventspo logo'/>
         <NavUL>
             <NavLI>
-                <NavLink to={ROUTES.ABOUT}>Landing</NavLink>
+                <NavLink to={ROUTES.ABOUT}>About</NavLink>
             </NavLI>
             <NavLI>
                 <NavLink to={ROUTES.SIGN_IN}>Sign In</NavLink>

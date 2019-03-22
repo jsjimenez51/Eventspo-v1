@@ -3,12 +3,14 @@ import { Link } from 'react-router-dom';
 
 import { withFirebase } from '../Firebase';
 import * as ROUTES from '../../constants/routes';
+import Button from '../Styled/button';
+import H3Style from '../Styled/h3Style';
 
 // Password Forget Form with Validation before submission
 
 const PasswordForgetPage = () => (
     <div>
-        <h1>PasswordForget</h1>
+        <H3Style>Forgot Your Password?</H3Style>
         <PasswordForgetForm />
     </div>
 );
@@ -58,9 +60,9 @@ class PasswordForgetFormBase extends Component {
                     type="text"
                     placeholder="Email Address"
                 />
-                <button disabled={isInvalid} type="submit">
+                <Button disabled={isInvalid} type="submit">
                     Reset My Password
-                </button>
+                </Button>
 
                 {error && <p>{error.message}</p>}
             </form>

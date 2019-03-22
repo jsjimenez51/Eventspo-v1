@@ -127,7 +127,10 @@ the planning process and produce creative, meaningful events</H3Style>
       </div>
     </Parallax>
     <div style={{ height: 500 }} />
-    <h2>{"\u2728"}</h2>
+      <div>
+        <H1Style>Eventspo</H1Style>
+      </div>
+        <a href='https://privacypolicies.com/privacy/view/09bb1f216d32e759b278d975f8feceda'>Privacy Policy</a>
   </Ldiv>
 );
 export default AboutPage;
