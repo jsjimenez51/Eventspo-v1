@@ -2,9 +2,14 @@
 
 > Running Live at https://eventspo.firebaseapp.com
 
+> Recorded Presentation of Project @ Holberton School.  ** Includes a Dev Rel oriented talk on Learning React in 7 days **
+- https://www.youtube.com/watch?v=80aLkLUTvDE&list=PLlLHfkTcnvmN7UttKtSjc31vmF82tsJWd&index=4&t=0s
+
 ## What is it?
 
-Eventspo was created as a personal challenge to myself to learn new technologies I have not interacted with before and implement them into a usable Full-Stack Implementable Web App Setup.  A broilerplate for myself if you will, for developing a web app for a new company in a short amount of time! 
+Eventspo was created as a personal challenge to myself to learn new technologies I have not interacted with before and implement them into a usable Full-Stack Implementable Web App Setup.  A boilerplate for myself if you will, for developing a web app for a new company in a short amount of time! 
+
+In addition to this boilerplate I utilized this project to present about a Technology used to work on skills necessary to enter the world of Developer Relations.  I spoke about how to learn React in 7 days and utilize it to build a working web app like the one presented here.  
 
 ---
 
