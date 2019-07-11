@@ -4,7 +4,7 @@
 
 ## What is it?
 
-Eventspo was created as a personal challenge to myself to learn new technologies I have not interacted with before and implement them into a usable Full-Stack Implementable Web App Setup.  A broilerplate for myself if you will, for developing a web app for a new company in a short amount of time! 
+Eventspo was created as a personal challenge to myself to learn new technologies I have not interacted with before and implement them into a usable Full-Stack Implementable Web App Setup. A broilerplate for myself if you will, for developing a web app for a new company in a short amount of time!
 
 ---
 
@@ -12,15 +12,18 @@ Eventspo was created as a personal challenge to myself to learn new technologies
 
 Eventspo is built entirely with React, styled with CSS in JS/Styled Components only, utilizing Firebase to handle User Authentication and Database functionality.
 
-###Built with:
-- [x] Boostrapped with Create React App to build Webpack
-- [x] React 16.8.4
-- [x] Firebase 5.9
-- [x] React-Router 4.4
-- [x] React-Parralax 2.2
-- [x] Styled-Components 4.1.3
+### Built with:
 
-###Implemented Functional Features:
+- React 16.8.4
+- React-Router 4.4
+- React-Parralax 2.2
+- Styled-Components 4.1.3
+- Firebase 5.9
+- Babel
+- Webpack
+
+### Implemented Functional Features:
+
 - [x] Sign In
 - [x] Sign Up
 - [x] Sign Out
@@ -34,18 +37,20 @@ Eventspo is built entirely with React, styled with CSS in JS/Styled Components o
 - [x] Database with Known Users
 - [x] Privacy Policy Implementation
 
-###Styling Features:
+### Styling Features:
+
 - [x] All styling achieved with Styled Components
 - [x] Parallax effect for About Page scrolling info
 
-###Roadmap for Development:
+### Roadmap for Development:
+
 - [ ] Insert Content to empty Components
 - [ ] Create many to many relationships between Vendors, Venues, and Users
 - [ ] Expand Roles to Client, Provider, and Planner
 - [ ] Implement Floating Card System for Vendors, Venues, Events, etc.
 - [ ] Be able to save lists of Providers and export them
 - [ ] Introduce a Calendaring/Event Creation system
-- [ ] Message board or Chat functionality 
+- [ ] Message board or Chat functionality
 
 ---
 
@@ -59,8 +64,9 @@ Eventspo is built entirely with React, styled with CSS in JS/Styled Components o
 - MUST USE your own Firebase Credentials!!!
 
 ### How to get your own Firebase Credentials:
+
 - visit https://firebase.google.com and create a Firebase App
-- copy and paste your Credentials from your Firebase App into *src/components/Firebase/firebase.js* file or in .env file
+- copy and paste your Credentials from your Firebase App into _src/components/Firebase/firebase.js_ file or in .env file
 - activate Email/Password, Google, Facebook and Twitter Sign-In Methods for your Firebase App
 
 ---
@@ -75,4 +81,5 @@ Eventspo is built entirely with React, styled with CSS in JS/Styled Components o
 ---
 
 ## Author
-* Joshua Jimenez, [jsjimenez51](https://github.com/jsjimenez51) | [@bigjoshcodes](https://twitter.com/bigjoshcodes)
+
+- Joshua Jimenez, [Personal Site](https://bigjoshcodes.dev) | [Github: jsjimenez51](https://github.com/jsjimenez51) | [Twitter: @bigjoshcodes](https://twitter.com/bigjoshcodes)
