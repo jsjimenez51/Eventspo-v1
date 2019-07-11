@@ -4,7 +4,7 @@
 
 ## What is it?
 
-Eventspo was created as a personal challenge to myself to learn new technologies I have not interacted with before and implement them into a usable Full-Stack Implementable Web App Setup. A broilerplate for myself if you will, for developing a web app for a new company in a short amount of time!
+Eventspo was created as a personal challenge to myself to learn new technologies I have not interacted with before and implement them into a usable Full-Stack Implementable Web App Setup. A boilerplate for myself if you will, for developing a web app for a new company in a short amount of time!
 
 ---
 
@@ -27,7 +27,7 @@ Eventspo is built entirely with React, styled with CSS in JS/Styled Components o
 - [x] Sign In
 - [x] Sign Up
 - [x] Sign Out
-- [x] Password Management (Replace existing, Forgotten Password Hangling)
+- [x] Password Management (Replace existing, Forgotten Password Handling)
 - [x] User Verification via Email
 - [x] Route Protection via Authorization
 - [x] Roles Assigned to Users or Admin via Authorization
